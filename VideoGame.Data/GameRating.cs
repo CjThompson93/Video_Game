@@ -11,6 +11,7 @@ namespace VideoGame.Data
     {
         [Key]
         public int RatingId { get; set; }
+        [Display(Name = "Game Rating")]
         public string RatingName { get; set; }
     }
 }
