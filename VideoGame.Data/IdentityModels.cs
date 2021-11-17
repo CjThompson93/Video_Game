@@ -33,7 +33,7 @@ namespace VideoGame.Data
         }
 
         public DbSet<VideoGame> VideoGames { get; set; }
-
+        public DbSet<GameDeveloper> Developers { get; set; }
 
 
 

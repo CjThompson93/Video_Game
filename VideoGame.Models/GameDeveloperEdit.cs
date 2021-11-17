@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace VideoGame.Models
 {
-    public class Class1
+    public class GameDeveloperEdit
     {
+        public int DeveloperId { get; set; }
+        public string DeveloperName { get; set; }
+
     }
 }

@@ -57,7 +57,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="GameDeveloperCreate.cs" />
+    <Compile Include="GameDeveloperDetails.cs" />
+    <Compile Include="GameDeveloperEdit.cs" />
+    <Compile Include="GameDeveloperList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
