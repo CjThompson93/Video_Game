@@ -61,6 +61,10 @@
     <Compile Include="GameDeveloperDetails.cs" />
     <Compile Include="GameDeveloperEdit.cs" />
     <Compile Include="GameDeveloperList.cs" />
+    <Compile Include="GameRatingCreate.cs" />
+    <Compile Include="GameRatingDetails.cs" />
+    <Compile Include="GameRatingEdit.cs" />
+    <Compile Include="GameRatingList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
