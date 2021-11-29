@@ -34,8 +34,9 @@ namespace VideoGame.Data
 
         public DbSet<VideoGame> VideoGames { get; set; }
         public DbSet<GameDeveloper> Developers { get; set; }
-        public DbSet<GameRating> Ratings { get; set; }
+        public DbSet<GameRating> GameRatings { get; set; }
         public DbSet<Developer_Game> GameDeveloper { get; set; }
+        public DbSet<Rating_Game> GameRating { get; set; }
 
 
 

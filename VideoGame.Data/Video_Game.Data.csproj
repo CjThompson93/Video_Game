@@ -79,6 +79,7 @@
     <Compile Include="GameDeveloper.cs" />
     <Compile Include="GameRating.cs" />
     <Compile Include="IdentityModels.cs" />
+    <Compile Include="Rating_Game.cs" />
     <Compile Include="VideoGame.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
