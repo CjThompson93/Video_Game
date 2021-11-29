@@ -66,10 +66,20 @@
     <Compile Include="GameRatingEdit.cs" />
     <Compile Include="GameRatingList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VideoGameCreate.cs" />
+    <Compile Include="VideoGameDetails.cs" />
+    <Compile Include="VideoGameEdit.cs" />
+    <Compile Include="VideoGameList.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VideoGame.Data\VideoGame.Data.csproj">
+      <Project>{D190A0C1-C5A9-401D-9A7F-5EC58A965DF7}</Project>
+      <Name>VideoGame.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
