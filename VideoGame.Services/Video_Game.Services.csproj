@@ -57,6 +57,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FavoriteService.cs" />
     <Compile Include="GameDeveloperService.cs" />
     <Compile Include="GameRatingService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -67,13 +68,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\VideoGame.Data\VideoGame.Data.csproj">
+    <ProjectReference Include="..\VideoGame.Data\Video_Game.Data.csproj">
       <Project>{D190A0C1-C5A9-401D-9A7F-5EC58A965DF7}</Project>
-      <Name>VideoGame.Data</Name>
+      <Name>Video_Game.Data</Name>
     </ProjectReference>
-    <ProjectReference Include="..\VideoGame.Models\VideoGame.Models.csproj">
+    <ProjectReference Include="..\VideoGame.Models\Video_Game.Models.csproj">
       <Project>{927572C4-EC1C-46F7-99B5-40E3C20D897C}</Project>
-      <Name>VideoGame.Models</Name>
+      <Name>Video_Game.Models</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
