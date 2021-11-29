@@ -76,6 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Developer_Game.cs" />
+    <Compile Include="Favorite.cs" />
     <Compile Include="GameDeveloper.cs" />
     <Compile Include="GameRating.cs" />
     <Compile Include="IdentityModels.cs" />

@@ -57,6 +57,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FavoriteCreate.cs" />
+    <Compile Include="FavoriteEdit.cs" />
+    <Compile Include="FavoriteList.cs" />
     <Compile Include="GameDeveloperCreate.cs" />
     <Compile Include="GameDeveloperDetails.cs" />
     <Compile Include="GameDeveloperEdit.cs" />
@@ -76,9 +79,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\VideoGame.Data\VideoGame.Data.csproj">
+    <ProjectReference Include="..\VideoGame.Data\Video_Game.Data.csproj">
       <Project>{D190A0C1-C5A9-401D-9A7F-5EC58A965DF7}</Project>
-      <Name>VideoGame.Data</Name>
+      <Name>Video_Game.Data</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
