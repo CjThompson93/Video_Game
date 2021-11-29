@@ -57,12 +57,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="FavoriteService.cs" />
+    <Compile Include="GameDeveloperService.cs" />
+    <Compile Include="GameRatingService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VideoGameService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VideoGame.Data\Video_Game.Data.csproj">
+      <Project>{D190A0C1-C5A9-401D-9A7F-5EC58A965DF7}</Project>
+      <Name>Video_Game.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VideoGame.Models\Video_Game.Models.csproj">
+      <Project>{927572C4-EC1C-46F7-99B5-40E3C20D897C}</Project>
+      <Name>Video_Game.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -207,8 +207,12 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\FavoriteController.cs" />
+    <Compile Include="Controllers\GameDeveloperController.cs" />
+    <Compile Include="Controllers\GameRatingController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="Controllers\VideoGameController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -308,17 +312,17 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\VideoGame.Data\VideoGame.Data.csproj">
+    <ProjectReference Include="..\VideoGame.Data\Video_Game.Data.csproj">
       <Project>{d190a0c1-c5a9-401d-9a7f-5ec58a965df7}</Project>
-      <Name>VideoGame.Data</Name>
+      <Name>Video_Game.Data</Name>
     </ProjectReference>
-    <ProjectReference Include="..\VideoGame.Models\VideoGame.Models.csproj">
+    <ProjectReference Include="..\VideoGame.Models\Video_Game.Models.csproj">
       <Project>{927572c4-ec1c-46f7-99b5-40e3c20d897c}</Project>
-      <Name>VideoGame.Models</Name>
+      <Name>Video_Game.Models</Name>
     </ProjectReference>
-    <ProjectReference Include="..\VideoGame.Services\VideoGame.Services.csproj">
+    <ProjectReference Include="..\VideoGame.Services\Video_Game.Services.csproj">
       <Project>{ec94a804-8095-457e-b366-35d085ced606}</Project>
-      <Name>VideoGame.Services</Name>
+      <Name>Video_Game.Services</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

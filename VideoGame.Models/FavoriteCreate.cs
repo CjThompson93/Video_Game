@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace VideoGame.Models
 {
-    public class Class1
+    public class FavoriteCreate
     {
+        public int GameId { get; set; }
+        public Guid UserId { get; set; }
     }
 }

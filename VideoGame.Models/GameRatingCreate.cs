@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace VideoGame.Services
+namespace VideoGame.Models
 {
-    public class Class1
+    public class GameRatingCreate
     {
+        public string RatingName { get; set; }
+
     }
 }

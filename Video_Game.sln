@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Video_Game", "VideoGame\Video_Game.csproj", "{21797078-F180-4DB4-BB2F-B388877D8685}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoGame.Data", "VideoGame.Data\VideoGame.Data.csproj", "{D190A0C1-C5A9-401D-9A7F-5EC58A965DF7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Video_Game.Data", "VideoGame.Data\Video_Game.Data.csproj", "{D190A0C1-C5A9-401D-9A7F-5EC58A965DF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoGame.Models", "VideoGame.Models\VideoGame.Models.csproj", "{927572C4-EC1C-46F7-99B5-40E3C20D897C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Video_Game.Models", "VideoGame.Models\Video_Game.Models.csproj", "{927572C4-EC1C-46F7-99B5-40E3C20D897C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoGame.Services", "VideoGame.Services\VideoGame.Services.csproj", "{EC94A804-8095-457E-B366-35D085CED606}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Video_Game.Services", "VideoGame.Services\Video_Game.Services.csproj", "{EC94A804-8095-457E-B366-35D085CED606}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
