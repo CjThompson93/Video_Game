@@ -8,6 +8,8 @@ namespace VideoGame.Models
 {
     public class GameDeveloperList
     {
+
+        public int DeveloperId { get; set; }
         public string DeveloperName { get; set; }
 
     }

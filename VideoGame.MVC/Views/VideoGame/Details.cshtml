@@ -1,0 +1,58 @@
+﻿@model VideoGame.Models.VideoGameDetails
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>VideoGameDetails</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.GameId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GameId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GameType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GameType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GameLength)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GameLength)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateCreated)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateCreated)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { title = Model.Title }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

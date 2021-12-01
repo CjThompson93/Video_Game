@@ -31,7 +31,7 @@ namespace VideoGame.Services
         {
             using (var ctx = new ApplicationDbContext())
             {
-                var quary = ctx.Developers.Select(e => new GameDeveloperList { DeveloperName = e.DeveloperName });
+                var quary = ctx.Developers.Select(e => new GameDeveloperList { DeveloperName = e.DeveloperName, DeveloperId = e.DeveloperId});
                 return quary.ToArray();
             }
         }
@@ -76,7 +76,8 @@ namespace VideoGame.Services
         {
             using(var ctx = new ApplicationDbContext())
             {
-                var entity = ctx.Developers;
+                var entity = ctx.Developers.Single(e => e.DeveloperId == developerId);
+                ctx.Developers.Remove(entity);
                 return ctx.SaveChanges() == 1;
             }
         }

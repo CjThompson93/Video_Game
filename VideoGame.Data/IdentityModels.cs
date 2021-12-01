@@ -18,6 +18,13 @@ namespace VideoGame.Data
             // Add custom user claims here
             return userIdentity;
         }
+        public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
+        {
+            // Note the authenticationType must match the one defined in CookieAuthenticationOptions.AuthenticationType
+            var userIdentity = await manager.CreateIdentityAsync(this, DefaultAuthenticationTypes.ApplicationCookie);
+            // Add custom user claims here
+            return userIdentity;
+        }
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
@@ -33,13 +40,11 @@ namespace VideoGame.Data
         }
 
         public DbSet<VideoGame> VideoGames { get; set; }
-        public DbSet<GameDeveloper> Developers { get; set; }
-        public DbSet<GameRating> GameRatings { get; set; }
         public DbSet<Developer_Game> GameDeveloper { get; set; }
         public DbSet<Rating_Game> GameRating { get; set; }
-        public DbSet<Favorite> Favorites { get; set: }
-
-
+        public DbSet<GameRating> Ratings { get; set; }
+        public DbSet<Favorite> Favorites { get; set; }
+        public DbSet<GameDeveloper> Developers { get; set; }
 
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

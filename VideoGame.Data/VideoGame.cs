@@ -23,6 +23,5 @@ namespace VideoGame.Data
 
         public virtual ICollection<Developer_Game> Developers { get; set; } = new List<Developer_Game>();
         public virtual ICollection<Rating_Game> GameRatings { get; set; } = new List<Rating_Game>();
-
     }
 }

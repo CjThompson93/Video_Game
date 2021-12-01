@@ -10,6 +10,7 @@ using Microsoft.Owin.Security.OAuth;
 using Owin;
 using VideoGame.Providers;
 using VideoGame.Models;
+using VideoGame.Data;
 
 namespace VideoGame
 {

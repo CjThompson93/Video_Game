@@ -15,10 +15,12 @@ namespace VideoGame.Services
         //Creating New VideoGame
         public bool CreateVideoGame(VideoGameCreate model)
         {
-            var entity = new VideoGame()
+            var entity = new VideoGame.Data.VideoGame()
             {
+                
                 Title = model.Title,
                 GameType = model.GameType,
+                DateCreated = model.DateCreated,
                 GameLength = model.GameLength,
             };
             using (var ctx = new ApplicationDbContext())

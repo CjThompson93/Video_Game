@@ -29,8 +29,8 @@ namespace VideoGame.Controllers
         }
         private GameDeveloperService CreateGameDeveloperService()
         {
-            var noteService = new GameDeveloperService();
-            return noteService;
+            var gameDeveloperService = new GameDeveloperService();
+            return gameDeveloperService;
         }
         public IHttpActionResult GetGameDeveloperByName(string name)
         {
